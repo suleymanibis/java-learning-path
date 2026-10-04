@@ -1,3 +1,6 @@
+// This class converts a total number of seconds into hours, minutes, and seconds, 
+// using method overloading to display the result in either a short (HH:MM:SS) or long descriptive format.
+
 import java.util.Scanner;
 
 public class TimeConverter {

@@ -1,3 +1,6 @@
+// This class calculates the exact distance to a destination using X and Y coordinates 
+// and generates a unique, formatted tracking code based on the pilot's initials, destination name, and distance.
+
 import java.util.Scanner;
 
 public class CargoTracker {

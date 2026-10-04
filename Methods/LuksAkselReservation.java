@@ -1,3 +1,6 @@
+// This class implements a console-based bus seat reservation system, 
+// allowing users to view seat availability, make reservations, and cancel bookings using a boolean array.
+
 package Methods;
 
 import java.util.Scanner;

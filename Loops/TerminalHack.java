@@ -1,3 +1,7 @@
+// This class implements a terminal hacking mini-game 
+// where the player must guess a randomly generated 3-digit secret PIN 
+// within 7 attempts using higher or lower hints.
+
 import java.util.Scanner;
 import java.util.Random;
 

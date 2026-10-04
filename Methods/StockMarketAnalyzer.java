@@ -1,3 +1,6 @@
+// This class calculates the maximum possible profit from a 7-day stock price history 
+// by identifying the optimal time to buy and sell.
+
 package Methods;
 
 import java.util.Scanner;

@@ -1,3 +1,6 @@
+// This class calculates and displays a Valorant match summary, 
+// including total kills, aces, and the best round based on user input.
+
 package Arrays;
 
 import java.util.Scanner;

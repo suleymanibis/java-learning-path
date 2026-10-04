@@ -1,3 +1,7 @@
+// This utility class provides methods for checking parity (even/odd) 
+// and converting decimal integers into binary and hexadecimal strings, 
+// demonstrating both standard arithmetic and optimized bitwise approaches.
+
 package ObjectOrientedProgramming;
 
 import java.io.*;

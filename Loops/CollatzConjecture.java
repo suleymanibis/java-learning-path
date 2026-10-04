@@ -1,3 +1,6 @@
+// This class generates the Collatz Conjecture (3n+1) sequence for a given positive integer, 
+// tracking the steps taken and the highest value reached during the process.
+
 import java.util.Scanner;
 
 public class CollatzConjecture {

@@ -1,3 +1,7 @@
+// This class simulates a mining process using a pickaxe durability system, 
+// randomly collecting different resources (Diamond, Iron, Stone) into an inventory 
+// based on specific drop probabilities.
+
 import java.util.Random;
 import java.util.HashMap;
 public class MinerSimulator {

@@ -1,3 +1,6 @@
+// This class formats an agent's full name, generates a unique codename using string manipulation, 
+// and calculates their pentagonal operation area based on a given radius.
+
 import java.util.Scanner;
 public class AgentProfileBuilder {
     public static void main(String[] args) {

@@ -1,3 +1,6 @@
+// This class implements a turn-based text RPG combat simulator 
+// where a player fights a dragon using fast attacks, heavy attacks with a miss chance, and healing potions.
+
 import java.util.Scanner;
 import java.util.Random;
 

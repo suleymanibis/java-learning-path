@@ -1,3 +1,6 @@
+// This class simulates a Skyblock lottery system by validating a 4-digit ticket, 
+// comparing it to a lucky number, and calculating the final prize after a tax deduction.
+
 import java.util.Scanner;
 
 public class SkyblockLottery {
