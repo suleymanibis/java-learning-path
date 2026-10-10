@@ -1,3 +1,5 @@
+package Selections;
+
 import java.util.Scanner;
 
 public class LeapYearCalculator {

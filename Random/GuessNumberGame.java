@@ -1,3 +1,4 @@
+package Random;
 import java.util.Scanner;
 import java.util.Random;
 public class GuessNumberGame {
@@ -24,5 +25,7 @@ public class GuessNumberGame {
             }
 
         }
+
+        input.close();
     }
 }

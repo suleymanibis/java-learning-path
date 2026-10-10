@@ -1,3 +1,5 @@
+package MixedProjects;
+
 public class SimulationManager {
     public void kinematicSimulationWithoutFriction(float initialSpeed){
         float gravityAcceleration = -9.8f;

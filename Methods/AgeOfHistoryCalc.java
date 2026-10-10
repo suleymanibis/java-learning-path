@@ -1,3 +1,5 @@
+package Methods;
+
 // This class calculates the assimilation cost, aggressive expansion, 
 // and resulting national stability after annexing provinces based on the chosen Casus Belli.
 

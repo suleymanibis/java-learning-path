@@ -1,3 +1,4 @@
+package BasicAlgorithms;
 public class BinarySearch {
     public  record Result(boolean found, int targetIndex) { }
     public  Result binarySearch(int[] sortedArray, int target){

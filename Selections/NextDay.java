@@ -41,7 +41,10 @@ public class NextDay {
                 }
 
                 System.out.println("Next day: " + day + "/" + month + "/" + year);
+
+                
             }
         }
+        input.close();
     }
 }

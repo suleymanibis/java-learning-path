@@ -4,7 +4,6 @@
 
 package ObjectOrientedProgramming;
 
-import java.io.*;
 public class Manager {
     public String isEven(int a){
         int b = 1;

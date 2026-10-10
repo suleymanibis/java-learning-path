@@ -1,8 +1,8 @@
+package Games;
 // This class implements a text-based Subnautica diving simulation 
 // where the player manages oxygen levels, collects resources, avoids random Leviathan attacks, 
 // and must safely return to base before drowning.
 
-import java.sql.Time;
 import java.util.Scanner;
 import java.util.TreeMap;
 import java.util.Random;
@@ -153,5 +153,7 @@ public class SubnauticaSimulation {
         } else {
             System.out.println("Maalesef boğuldun! Geçmiş olsun tüm topladıkların okyanusta kayboldu!");
         }
+
+        input.close();
     }
 }

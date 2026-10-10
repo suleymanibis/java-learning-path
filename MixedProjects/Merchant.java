@@ -1,3 +1,4 @@
+package MixedProjects;
 import java.util.Scanner;
 
 public class Merchant {

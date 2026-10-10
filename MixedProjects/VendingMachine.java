@@ -1,3 +1,6 @@
+package MixedProjects;
+
+
 import java.util.Scanner;
 import java.util.TreeMap;
 

@@ -35,6 +35,8 @@ public class ClockAngle {
             }
 
             System.out.println("Angle: " + angle + " degrees");
+
+            input.close();
         }
     }
 }

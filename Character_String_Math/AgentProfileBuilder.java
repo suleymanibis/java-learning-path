@@ -1,4 +1,5 @@
-// This class formats an agent's full name, generates a unique codename using string manipulation, 
+package Character_String_Math;
+// This class formats an agent's full name, generates a unique codename using string manipulation,
 // and calculates their pentagonal operation area based on a given radius.
 
 import java.util.Scanner;
@@ -28,7 +29,7 @@ public class AgentProfileBuilder {
 
         profileName = name + " " + surname;
 
-        codeName = Character.toString(surname.charAt(0)) + Character.toString(name.charAt(name.length() - 1)) + fullName.length();
+        codeName = surname.charAt(0) + name.charAt(name.length() - 1) + fullName.length() + "";
 
         double s = 2 * radius * Math.sin(pi/5);
         area = (5 * s * s)/(4 * Math.tan(pi/5));
@@ -36,6 +37,7 @@ public class AgentProfileBuilder {
         System.out.printf("Agent Profile: %s\n", profileName);
         System.out.printf("Codename: %s\n", codeName);
         System.out.printf("Operation Area: %.2f sq units", area);
-
+        
+        input.close();
     }
 }

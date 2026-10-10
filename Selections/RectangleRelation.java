@@ -55,5 +55,7 @@ public class RectangleRelation {
         } else {
             System.out.println("Invalid rectangle.");
         }
+
+        input.close();
     }
 }

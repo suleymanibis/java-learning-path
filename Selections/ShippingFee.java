@@ -51,5 +51,7 @@ public class ShippingFee {
         }else {
             System.out.println("Invalid service type.");
         }
+
+        input.close();
     }
 }

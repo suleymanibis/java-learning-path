@@ -1,3 +1,4 @@
+package Loops;
 // This class calculates the final balance of an investment over a given number of months, 
 // applying a monthly compound interest rate and adding a fixed bonus amount every quarter.
 
