@@ -64,11 +64,9 @@ public class DungeonCrawler {
             if (className.isEmpty()) {
                 System.out.println("Invalid class.");
             } else {
-                int endingIndex = name.length();
 
-                if (name.length() >= 3) {
-                    endingIndex = 3;
-                }
+
+                int endingIndex = Math.min(name.length(), 3);
 
                 classTitle = className.toUpperCase().charAt(0) + className.substring(1);
                 tag = name.substring(0, endingIndex).toUpperCase() + "-" + code;
@@ -93,11 +91,13 @@ public class DungeonCrawler {
 
                 System.out.println(resultText);
                 System.out.println("XP: " + tag + " " + earnedXp);
-                input.close();
+
             }
 
         } else {
             System.out.println("Invalid name.");
         }
+
+        input.close();
     }
 }
